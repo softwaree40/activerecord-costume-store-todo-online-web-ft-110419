@@ -9,6 +9,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
          t.string :family_friendly
          t.timestamp :opening_date
          t.timestamp :closing_date
-         t.string :long description
+         t.string :description
+        end
      end
 end
