@@ -4,7 +4,7 @@ class CostumeStore < ActiveRecord::Migration[5.2]
          create_table :costume_stores do |t|
          t.string :name
          t.integer :location
-         t.integer :number of costumes, or "costume inventory"
+         t.integer :number of costumes
          t.string :number of employees
          t.string :whether or not "it's still in business"
          t.timestamp :opening time
